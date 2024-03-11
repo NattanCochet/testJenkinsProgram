@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2024
-** testJenkinsProgram
-** File description:
-** program
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -19,7 +12,7 @@ void my_function(char *str, char *str2)
 
 int main(int argc, char **argv)
 {
-    if (argc != 2) {
+    if (argc != 3) {
         puts("Bad number of arguments, not good");
         return 84;
     }
