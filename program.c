@@ -4,7 +4,7 @@
 void my_function(char *str, char *str2)
 {
     if (strcmp(str, str2) == 0) {
-        puts("Wow these two strings are identical, exciting ! Tom dédicace");
+        puts("Wow these two strings are identical, exciting ! Guillaume dédicace");
     } else {
         puts("Wow these strings are perfectly different, ye !");
     }
